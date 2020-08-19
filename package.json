@@ -1,0 +1,19 @@
+{
+  "name": "spsapp",
+  "version": "1.0.0",
+  "description": "This app is used for Reactnative rest api of the backend and will perform heavy actions",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error:no test specified\"&& exit 1"
+  },
+  "author": "Rehan_ghafoor",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "node-cron": "^2.0.3",
+    "stripe": "^8.84.0"
+  }
+}
