@@ -36,7 +36,9 @@ const resps=await performcheck(req.body.data).then((reps)=>{
 	},3000)
 })
 })
-
+app.get("/Check_available_dates/:date",(req,res,nex)=>{
+	res.json(req.params.date);
+})
 async function performcheck (data) 
 {
 return new Promise ((resolve,reject)=>{
